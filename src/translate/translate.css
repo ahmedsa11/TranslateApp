@@ -1,0 +1,68 @@
+.translate h1 {
+  color: #FFF;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.translate .translate-container {
+  width: 58%;
+  height: 100%;
+  display: block;
+  padding: 9px;
+  margin: 0 auto;
+}
+
+.translate .translate-input {
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+  margin: 37px 0px;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.translate textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  resize: none;
+  font-size: 1.5em;
+  padding: 15px;
+}
+
+.translate button {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.translate select {
+  padding: 2px;
+  border: none;
+  border-bottom: 2px solid #333;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.translate .results {
+  padding: 10px;
+  background: #fff;
+  border-radius: 6px;
+  width: 58%;
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+}
+
+.translate #result {
+  width: 100%;
+  font-size: 20px;
+  background: #ddd;
+  word-break: break-all;
+  /* overflow-y: hidden; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=translate.css.map */
